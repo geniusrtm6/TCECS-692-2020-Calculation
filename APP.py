@@ -1247,6 +1247,7 @@ class StreamlitCalculatorRunner:
 # ================= 网页前端界面渲染 =================
 st.info("💡 操作提示：请在左侧面板设置好材料、截面及荷载参数，随后点击下方按钮一键生成验算报告。")
 st.info("⚠️ 免责声明：本程序依据 T/CECS 692-2020 规程编制，计算结果仅供辅助参考，实际工程应用请以人工复核及正式施工图为准。")
+st.info("support by IntelliMat Design @Chemlead")
 
 if st.button("▶ 开始计算并生成报告", type="primary", use_container_width=True):
     with st.spinner("正在严格按照 T/CECS 692-2020 规范执行力学验算..."):
